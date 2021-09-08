@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const core = require("./index.js")
+const chalk = require("chalk")
+
+console.log(core.MessageArgs(process.argv.slice(2)))
